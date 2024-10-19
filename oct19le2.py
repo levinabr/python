@@ -7,4 +7,4 @@ x = input("First Name \n ")
 y = input("Second name \n ")
 z = x+" "+y
 print(z)
-print("the sub string is", z[:len(x)])
+print("the sub string is", z[len(y):])
